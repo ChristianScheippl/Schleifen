@@ -30,6 +30,8 @@ public class Testklasse {
         ArrayList<Person> personenAelterAls30 = personenverwaltung.gibPersonenAelterAls(30);
         for (Person person2 : personenAelterAls30) {
             System.out.println(person2);
+
+            // 
         }
     }
 
