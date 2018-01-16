@@ -46,8 +46,8 @@ public class Person {
         System.out.println("Name: " + name);
         System.out.println("Alter: " + alter);
     }
+    @Override
     public String  toString(){
-        String result = "Name: " + name + "\nAlter: " + alter;
-        return result;
+        return "Name:" + name +", Alter "+ alter;
     }
 }

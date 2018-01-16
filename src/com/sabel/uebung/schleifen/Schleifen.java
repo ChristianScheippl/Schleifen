@@ -27,6 +27,15 @@ public class Schleifen {
 
     public static void main(String[] args) {
 
+        // Ausgabe aller Primzahlen von 1_000_000 bis 2_000_000
+        int zahl = 3_000_000;
+        while (zahl < 3_100_000){
+            if (isPrim(zahl)){
+                System.out.println(zahl);
+            }
+            zahl++;
+        }
+
         // Ist 127 eine Primzahl ?
         if (isPrim(127)){
             System.out.println("Ist Primzahl");
@@ -40,7 +49,7 @@ public class Schleifen {
 
         // Aufgabe 1: Ausgabe der Zahelen von 0 bis 4
 
-        int zahl = 0;
+        zahl = 0;
         while (zahl < 5){
             System.out.println(zahl);
             zahl++;
